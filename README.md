@@ -1,3 +1,3 @@
 # Flash
 
-![Deneme](backflash.png)
+![asxasx](/images/ic_blood.png)
