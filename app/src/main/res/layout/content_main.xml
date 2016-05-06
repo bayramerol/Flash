@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/backflash"
+    >
+
+
+
+
+    <!--   android:layout_width="match_parent"    ekranın tüm genişliğini kullanmak için -->
+    <!--    android:layout_height="match_parent"    ekranın tüm yüksekliğini kullanmak için  -->
+    <!--   android:background="#0470d9"  arka plan rengi -->
+    <!--   android:orientation="vertical" >  nesnelerin yerleşimini dikey olarak ayarlıyoruz -->
+    <ImageView
+        android:id="@+id/opbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/openxxx"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:layout_centerHorizontal="true" />
+
+    <!--      android:id="@+id/opbutton"      buton idsi yani kimliği ya da ismi gibi düşünebilirsiniz -->
+    <!--    android:layout_width="fill_parent"  ekranın bütün genişliğini kullanmak için -->
+    <!--       android:layout_height="wrap_content" ekranın buton yazısı için gereken yüksekliğini kullanmak için -->
+    <!--  android:background="#ddd" buton arka plan rengi -->
+    <!--       android:text="Flashı Aç" />  buton yazısı -->
+    <ImageView
+        android:id="@+id/clbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/close"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"/>
+
+
+    <!--    android:layout_marginTop="200dp"  butonun bir üstteki nesneden uzaklığını ayarlıyoruz -->
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/opbutton"
+        android:layout_centerHorizontal="true">
+    </com.google.android.gms.ads.AdView>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/battery_level"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:id="@+id/monospaceTxt"
+
+        android:layout_above="@+id/opbutton"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView2"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/monospaceTxt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    </com.google.android.gms.ads.AdView>
+
+
+
+
+
+
+</RelativeLayout>

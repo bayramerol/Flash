@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Simple Flashlight</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2928097859559744/6430136511</string>
+    <string name="banner_ad_unit_id2">ca-app-pub-2928097859559744/9714565310</string>
+
+
+    <string name="battery_level">Battery Percentage : 0</string>
+    <string name="battery_situaiton_settext">Battery Percentage %</string>
+    <string name="error_alert">Error</string>
+    <string name="alert_message">Your device doesnt support flash!</string>
+    <string name="alert_button">OK</string>
+
+
+
+
+</resources>

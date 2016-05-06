@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Simple Flashlight</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2928097859559744/6430136511</string>
+    <string name="banner_ad_unit_id2">ca-app-pub-2928097859559744/9714565310</string>
+
+
+    <string name="battery_level">Pil Yüzdesi : 0</string>
+    <string name="battery_situaiton_settext">Pil Yüzdesi %</string>
+    <string name="error_alert">Hata</string>
+    <string name="alert_message">Telefonunuz Flash Desteklemiyor!</string>
+    <string name="alert_button">Tamam</string>
+
+
+
+
+</resources>
